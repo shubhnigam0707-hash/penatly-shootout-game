@@ -1,47 +1,54 @@
-Penalty Shootout Game
+# Penalty Shootout Game
 
-A simple command-line penalty shootout game developed in C++. The player takes five penalty kicks and chooses where to shoot—left, center, or right—while the goalkeeper's dive direction is determined randomly. The objective is to score at least three goals out of five attempts to win the shootout.
+A simple command-line penalty shootout game developed in C++. The player takes five penalty kicks and chooses where to shoot (left, center, or right), while the goalkeeper's dive direction is determined randomly. The objective is to score at least three goals out of five attempts to win the shootout.
 
-This project was created to practice core C++ programming concepts, including loops, arrays, conditional statements, random number generation, and user input handling, through a small interactive game.
+This project was created to practice fundamental C++ concepts such as loops, arrays, conditional statements, random number generation, and user input handling through an interactive football-themed game.
 
-Features
-Menu-driven interface
-Five-attempt penalty shootout format
-Random goalkeeper dive simulation
-Goal and save detection
-Score tracking
-Win/Loss result system
-Basic input validation
-Technologies Used
-C++
-Standard Library
-iostream
-cstdlib
-ctime
-How to Run
+## Features
 
-Compile the source file using a C++ compiler:
+- Menu-driven interface
+- Five-attempt penalty shootout format
+- Random goalkeeper dive simulation
+- Goal and save detection
+- Score tracking
+- Win/Loss result system
+- Basic input validation
 
-g++ main.cpp -o penalty-shootout
+## Technologies Used
 
-Run the executable:
+- C++
+- iostream
+- cstdlib
+- ctime
 
-./penalty-shootout
-Learning Objectives
+## How to Run
 
-This project helped reinforce:
+1. Compile the source file:
+   ```bash
+   g++ main.cpp -o penalty-shootout
+   ```
 
-Working with arrays and strings
-Using random number generation with rand()
-Implementing loops and conditional logic
-Designing a menu-driven application
-Handling user input in a console environment
-Future Improvements
-Difficulty levels for the goalkeeper
-Match statistics and high scores
-Multiplayer mode
-Improved input validation
-Better visual presentation in the console
-Author
+2. Run the executable:
+   ```bash
+   ./penalty-shootout
+   ```
+
+## Learning Outcomes
+
+- Working with arrays and strings
+- Using random number generation
+- Implementing loops and conditional logic
+- Building menu-driven applications
+- Handling user input and validation
+
+## Future Improvements
+
+- Multiple difficulty levels
+- Goalkeeper AI with varying behavior
+- Match statistics and high-score tracking
+- Multiplayer mode
+- Improved console interface
+
+## Author
 
 Shubh Nigam
